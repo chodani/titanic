@@ -1,0 +1,15 @@
+Titanic Data Dictionary
+
+| Variable | Definition                                 | Key                                                                                      |
+|----------+--------------------------------------------+------------------------------------------------------------------------------------------|
+| survival | Survival                                   | 0 = No, 1 = Yes                                                                          |
+| pclass   | Ticket class                               | 1 = 1st (Upper), 2 = 2nd (Middle), 3 = 3rd (Lower) proxy for socio-economic status (SES) |
+| sex      | Sex                                        |                                                                                          |
+| Age      | Age in years                               | Age is fractional if less than 1. If the age is estimated: form is xx.5                  |
+| sibsp    | # of siblings / spouses aboard the Titanic | Sibling = brother, sister, stepbrother, stepsister                                       |
+|          |                                            | Spouse = husband, wife (mistresses and fiancés were ignored)                             |
+| parch    | # of parents / children aboard the Titanic | mother, father; daughter, son, stepdaughter, stepson; only nanny: parch=0                |
+| ticket   | Ticket number                              |                                                                                          |
+| fare     | Passenger fare                             |                                                                                          |
+| cabin    | Cabin number                               |                                                                                          |
+| embarked | Port of Embarkation                        | C = Cherbourg, Q = Queenstown, S = Southampton                                           |
